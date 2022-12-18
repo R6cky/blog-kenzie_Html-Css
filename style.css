@@ -1,0 +1,323 @@
+
+/****************************************************/
+/****Configurações da área de cabeçalho do body******/
+/****************************************************/
+
+#area-cabecalho{
+    width: 1020px;
+    height: 440px;
+}
+
+#banner{
+    width: 1020px;
+    height: 300px;
+    background: url(../img/somoskenzie.png);
+}
+
+.area-titulo{
+    width: 1020px;
+    height: 60px;
+    background: rgb(9, 4, 44);
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+
+.area-titulo>h1{
+    margin: 0;
+    background: rgb(9, 4, 44);
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+
+.navegacao{
+    width: 1020px;
+    height: 110px;
+    background:rgb(238, 235, 235);
+    line-height: 110px;
+    border-right: solid rgb(4, 38, 148) 1px;
+    border-left: solid rgb(4, 38, 148) 1px;
+}
+
+
+/*Configuração da lista não ordenada com menu*/
+
+.navegacao ul{
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.navegacao li{
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/****************************************************/
+/*Formatação de links da lista não ordenada do menu*/
+/****************************************************/
+
+
+/*OBS. Essa configuração a baixo (a{text-decoration}) é geral para todos os links da página*/
+a{
+    text-decoration: none;
+    color:rgb(21, 21, 77);
+}
+
+
+.navegacao a:visited{
+    color:rgb(21, 21, 77);
+}
+
+.navegacao a:hover{
+    border-bottom: rgb(10, 21, 71) 2px solid;
+}
+
+/****************************************************/
+/**********Configurações da área dos posts**********/
+/****************************************************/
+
+
+body{
+    background: rgb(255, 255, 255);
+    margin-left: 130px;
+
+}
+
+
+
+main{
+    width: 1020px;
+    height: 900px;
+    background: rgb(9, 4, 44);
+}
+
+
+
+article{
+    width: 1020px;
+    height: 900px;
+}
+
+
+/*Área que envolve os outros posts, foi somente para organização*/
+.post-hug{
+    width: 900px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    background: rgb(9, 4, 44);
+    border-bottom: solid rgb(148, 136, 136) 1px;
+}
+
+.post-hug ul{
+    list-style-type: none;
+}
+
+
+.cards-grupo1{
+    width: 300px;
+    height: 580px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+
+.cards-grupo2{
+    width: 300px;
+    height: 580px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+.card1{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px 20px 0px 0px;
+}
+
+
+.card2{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px 20px 0px 0px;
+}
+
+
+.card3{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px 20px 0px 0px;
+}
+
+
+.card4{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px 20px 0px 0px;
+}
+
+
+.post-titulo{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-bottom: 2px;
+    border-bottom: solid 1px rgb(80, 55, 9);
+}
+
+/*Mensagem "Clique na imagem para ler a matéria"*/
+.post-previa{
+    color: rgb(140, 186, 226);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/*Configuração dos nomes dos autores dos posts*/
+
+.autor-post{
+    font-size: 12px;
+}
+
+.autor-post:hover{
+    color: red;
+}
+
+
+
+    #newsletter{
+        width: 1016px;
+        height: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        font-style:initial;
+        color:  rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 30px;
+    }    
+
+    .frase-newsletter{
+        color: rgb(241, 241, 241);
+    }
+
+
+    /*Configuração do formulário da newsletter*/
+
+    .formulario{
+        width: 500px;
+        height: 150px;
+        margin: auto;
+    }
+
+
+    .formulario input{
+        font-size: 25px;
+        text-align: center;
+        width: 400px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .formulario fieldset{
+        border: none;
+    }
+
+
+    .botao{
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    /*Configuração do rodapé*/
+
+    #rodape{
+        width: 1016px;
+        height: 160px;
+        background: rgb(255, 255, 255);
+        border-left: solid rgb(5, 3, 85) 2px;
+        border-right: solid rgb(5, 3, 85) 2px;
+        border-bottom: solid rgb(5, 3, 85) 2px;
+    }
+
+    .logo-rodape{
+        width: 300px;
+        height: 160px;
+        float: left;
+        margin-left: 10px;
+        background: url(/img/logorodape.jpg);
+    }
+
+    
+    .redes-sociais-rodape{
+        width: 300px;
+        height: 160px;
+        float: left;
+        margin-left: 20px;
+        text-align: center;
+        color:  rgb(9, 4, 44);
+    }
+
+    .redes-sociais-rodape ul{
+        list-style-type: none;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    .redes-sociais-rodape li{
+        padding: 10px;
+        display: inline;
+    }
+
+    .redes-sociais-rodape a:visited{
+        color:rgb(21, 21, 77);
+    }
+
+
+
+
+
+
+    .contato-rodape{
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        color:  rgb(9, 4, 44);
+        float: left;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .contato-rodape ul{
+        list-style-type: none;
+    }
+
+    .contato-rodape p{
+        margin: 3px 2px 3px 1px;
+    }
